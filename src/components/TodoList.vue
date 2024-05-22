@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Daftar Catatan (Jumlah: {{ todoCount }})</h2>
+    <h2>Jumlah To-do List {{ todoCount }})</h2>
     <input v-model="newTodo" placeholder="add new todo" />
     <button @click="addNewTodo">add new todo</button>
     <ul>
