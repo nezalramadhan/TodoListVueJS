@@ -1,17 +1,26 @@
-# vue-project
+# To-Do List Application
 
-This template should help get you started developing with Vue 3 in Vite.
+## Deskripsi
+Aplikasi ini memungkinkan pengguna untuk menambah, mengedit, dan menghapus catatan to-do.
 
-## Recommended IDE Setup
+## Instalasi
+1. Clone repository pada github ini dengan "git clone <url github ini >".
+2. Jalankan `npm install` untuk menginstal dependensi.
+3. Jalankan `npm run serve` untuk memulai aplikasi.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## State Management
+Menggunakan Pinia untuk mengelola state aplikasi:
+- **State**: Menyimpan daftar to-do.
+- **Mutations**: Menambah, mengedit, dan menghapus to-do.
+- **Actions**: Menambah to-do secara asinkron. 
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## petunjuk penggunaan 
+- add new todo untuk menambahkan catatan atau todo list
+- jika sudah ditambahkan, akan muncul edit dan delete
+- edit untuk mengedit catatan atau todo yang kita input
+- dan delete untuk menghapus nya
 
 ## Project Setup
-
 ```sh
 npm install
 ```
